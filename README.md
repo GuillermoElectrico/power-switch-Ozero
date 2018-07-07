@@ -1,6 +1,6 @@
 # Shutdown Switch Orange Pi Zero
 
-Simple script python3 to shuntdown orange pi zero to external button
+Simple script python3 to shutdown orange pi zero to external button
 
 ### Requirements
 
@@ -22,7 +22,7 @@ Connect resistor between 3.3V (pin 1) and pin select in script. The button is co
 ### Installation
 * Download and install from Github and install pip3
     ```sh
-    $ git clone https://github.com/GuillermoElectrico/energy-meter-logger
+    $ git clone https://github.com/GuillermoElectrico/power-switch-Ozero
 	$ sudo apt-get install python3-pip
 	$ sudo pip3 install --upgrade OPi.GPIO
     ```
