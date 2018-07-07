@@ -33,5 +33,5 @@ Connect resistor between 3.3V (pin 1) and pin select in script. The button is co
 * To run the python script at system startup. Add to following lines to the end of /etc/rc.local but before exit:
     ```sh
     # Start Power Switch Orange Pi Zero
-    /home/--user--/power-switch-Ozero/power-switch-Ozero.py 
+    /home/--user--/power-switch-Ozero/power-switch-Ozero.py > /var/log/power_swich.log &
     ```
