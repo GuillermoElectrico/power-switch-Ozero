@@ -20,7 +20,7 @@ Simple script python3 to shutdown orange pi zero to external button
 Connect resistor between 3.3V (pin 1) and pin select in script. The button is connected between pin select in script and any GND pin. 
 
 ### Installation
-* Download and install from Github and install pip3
+* Download from Github and install pip3
     ```sh
     $ git clone https://github.com/GuillermoElectrico/power-switch-Ozero
 	$ sudo apt-get install python3-pip
