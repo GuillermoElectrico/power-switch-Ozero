@@ -23,5 +23,7 @@ else:
 # Wait for a button press on the selected pin (pin pulled to ground, falling edge)
 GPIO.wait_for_edge(InputPin, GPIO.FALLING)
 
+GPIO.output(LedOnPin, 0)
+
 print ("*** Netctl shutdown activated ***")
 subprocess.call("/sbin/shutdown now", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
