@@ -25,7 +25,7 @@ Connect resistor between 3.3V (pin 1) and pin select in script. The button is co
     $ git clone https://github.com/GuillermoElectrico/power-switch-Ozero
 	$ sudo apt-get install python3-pip
 	$ sudo pip3 install --upgrade OPi.GPIO
-	& cd power-switch-Ozero/
+	$ cd power-switch-Ozero/
 	$ sudo chmod+x power-switch-Ozero.py
     ```
 * Edit script and modify InputPin as unused pin in the board
